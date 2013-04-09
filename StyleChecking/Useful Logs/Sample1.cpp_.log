@@ -1,0 +1,5 @@
+Sample1.cpp;6;style;variableScope;The scope of the variable 'i' can be reduced.
+Sample1.cpp;9;style;unreadVariable;Variable 'i' is assigned a value that is never used.
+Sample1.cpp;26;style;unreadVariable;Variable 'a' is assigned a value that is never used.
+Sample1.cpp;26;error;arrayIndexOutOfBounds;Array 'a[10]' accessed at index 10, which is out of bounds.
+Sample1.cpp;3;style;unusedFunction;The function 'f' is never used.
