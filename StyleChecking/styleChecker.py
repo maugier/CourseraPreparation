@@ -7,6 +7,9 @@ import shutil
 import glob
 import sys
 import re
+from random import Random
+from decimal import Decimal
+import random
 
 """ Version checking functions  
 """
@@ -132,6 +135,47 @@ def printReport (svCtr):
 	print "Static Check Details"
 	print "*********************"
 	print svCtr.log
+	
+"""Print final report that concludes a summary and a detailed description of the 
+issues to a file  
+:param svCtr: severity counter that appends all the issues in the source files   
+"""
+def printReportToFile (svCtr, codePath, fileDirectory):
+	fileName = codePath + "/" + fileDirectory + "/" + str(fileDirectory) + ".log"
+	print "fileName ... " 
+	print fileName 
+	fileHandle = open(fileName, 'w')
+	fileHandle.write("\n")
+	fileHandle.write("********************\n")
+	fileHandle.write("Static Check Summary\n")
+	fileHandle.write("********************\n")
+	fileHandle.write("Total number of errors is " + str(svCtr.error) + \
+	", Grading (" + str(svCtr.errorPenalty * svCtr.error) +") Marks\n") 
+	fileHandle.write("Total number of warnings is " + str(svCtr.warning) + \
+	", Grading (" + str(svCtr.warningPenalty * svCtr.warning) +") Marks\n") 
+	fileHandle.write("Total number of style issues is " + str(svCtr.style) + \
+	", Grading (" + str(svCtr.stylePenalty * svCtr.style) +") Marks\n") 
+	fileHandle.write("Total number of performance issues is " + str(svCtr.performance) + \
+	", Grading (" + str(svCtr.performancePenalty * svCtr.performance) +") Marks\n") 
+	fileHandle.write("Total number of portability issues is " + str(svCtr.portability) +\
+	", Grading (" + str(svCtr.portabilityPenalty * svCtr.portability) +") Marks\n") 
+	
+	# Computing the total marks lost in the ckeck
+	lostMarks = svCtr.errorPenalty * svCtr.error + \
+				svCtr.warningPenalty * svCtr.warning + \
+				svCtr.stylePenalty * svCtr.style + \
+				svCtr.performancePenalty * svCtr.performance + \
+				svCtr.portabilityPenalty * svCtr.portability 
+
+	fileHandle.write("-------------------------------------------------------------\n")				
+	fileHandle.write("Total number of lost marks is " + str(lostMarks) + "\n")
+	
+	fileHandle.write("\n")
+	fileHandle.write("*********************\n")
+	fileHandle.write("Static Check Details\n")
+	fileHandle.write("*********************\n")
+	fileHandle.write(str(svCtr.log))
+	fileHandle.close()
 
 
 """Print version checker after starting the execution  
@@ -143,7 +187,7 @@ def printCheckerVersion():
 	
 """Main function 
 """
-def main():
+def runChecker(codePath, directory):
 	
 	# Print the "cppcheck" version 
 	printCheckerVersion()
@@ -164,11 +208,11 @@ def main():
 	shellCommand += template + templateArgs
 	
 	# C++ files to check  
-	checkFileorDir = "SampleCode/Sample1.cpp"
+	checkFileorDir = codePath + "/" + directory
 	shellCommand += " " + checkFileorDir
 	 
 	# Created log file  
-	outputLog = "" + checkFileorDir + "_.log"
+	outputLog = "" + checkFileorDir + "/" + str(directory) + "_.log"
 	shellCommand += " 2>" + outputLog
 
 	# Execute the command 
@@ -187,11 +231,25 @@ def main():
 		severtiyCheck(record, svCtr)
 	
 	# Print the final report that concludes the static check 
-	printReport(svCtr)
+	printReportToFile(svCtr, codePath, directory)
 
 
-# Run the Cpp Checker ...  
-main()
+# If the argument is 0 or null : use camera path, otherwise get a camera path 
+if (len(sys.argv) < 3):
+    print "You have to provide a valid path to check the code ... " 
+    sys.exit(0) 
+elif(sys.argv[1] == "--path"): 
+    codePath = sys.argv[2]
+    
+dirList = os.listdir(codePath)
+ 
+for directory in dirList:
+	print directory 
+	
+	# Run the Cpp Checker for a directory all together ...  
+	runChecker(codePath, directory)
+
+
 	
 	
 	
