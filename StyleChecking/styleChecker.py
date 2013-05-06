@@ -105,20 +105,20 @@ def severtiyCheck(severtiy, svCtr):
 :param svCtr: severity counter that appends all the issues in the source files   
 """
 def printReport (svCtr):
-	print "\n"
-	print "********************"
-	print "Static Check Summary"
-	print "********************"
-	print "Total number of errors is " + str(svCtr.error) + \
-	", Grading (" + str(svCtr.errorPenalty * svCtr.error) +") Marks" 
-	print "Total number of warnings is " + str(svCtr.warning) + \
-	", Grading (" + str(svCtr.warningPenalty * svCtr.warning) +") Marks" 
-	print "Total number of style issues is " + str(svCtr.style) + \
-	", Grading (" + str(svCtr.stylePenalty * svCtr.style) +") Marks" 
-	print "Total number of performance issues is " + str(svCtr.performance) + \
-	", Grading (" + str(svCtr.performancePenalty * svCtr.performance) +") Marks" 
-	print "Total number of portability issues is " + str(svCtr.portability) +\
-	", Grading (" + str(svCtr.portabilityPenalty * svCtr.portability) +") Marks" 
+	print("\n")
+	print("********************")
+	print("Static Check Summary")
+	print("********************")
+	print("Total number of errors is " + str(svCtr.error) + \
+	", Grading (" + str(svCtr.errorPenalty * svCtr.error) +") Marks") 
+	print("Total number of warnings is " + str(svCtr.warning) + \
+	", Grading (" + str(svCtr.warningPenalty * svCtr.warning) +") Marks") 
+	print("Total number of style issues is " + str(svCtr.style) + \
+	", Grading (" + str(svCtr.stylePenalty * svCtr.style) +") Marks") 
+	print("Total number of performance issues is " + str(svCtr.performance) + \
+	", Grading (" + str(svCtr.performancePenalty * svCtr.performance) +") Marks") 
+	print("Total number of portability issues is " + str(svCtr.portability) +\
+	", Grading (" + str(svCtr.portabilityPenalty * svCtr.portability) +") Marks") 
 	
 	# Computing the total marks lost in the ckeck
 	lostMarks = svCtr.errorPenalty * svCtr.error + \
@@ -127,14 +127,14 @@ def printReport (svCtr):
 				svCtr.performancePenalty * svCtr.performance + \
 				svCtr.portabilityPenalty * svCtr.portability 
 
-	print "-------------------------------------------------------------"				
-	print "Total number of lost marks is " + str(lostMarks)
+	print("-------------------------------------------------------------")				
+	print("Total number of lost marks is " + str(lostMarks))
 	
-	print "\n"
-	print "*********************"
-	print "Static Check Details"
-	print "*********************"
-	print svCtr.log
+	print("\n")
+	print("*********************")
+	print("Static Check Details")
+	print("*********************")
+	print(svCtr.log)
 	
 """Print final report that concludes a summary and a detailed description of the 
 issues to a file  
@@ -142,8 +142,8 @@ issues to a file
 """
 def printReportToFile (svCtr, codePath, fileDirectory):
 	fileName = codePath + "/" + fileDirectory + "/" + str(fileDirectory) + ".log"
-	print "fileName ... " 
-	print fileName 
+	print("fileName ... ") 
+	print(fileName) 
 	fileHandle = open(fileName, 'w')
 	fileHandle.write("\n")
 	fileHandle.write("********************\n")
@@ -181,9 +181,9 @@ def printReportToFile (svCtr, codePath, fileDirectory):
 """Print version checker after starting the execution  
 """
 def printCheckerVersion():
-	print "********************************************** \n"
-	print "Static Checker for C++ based on " + str(cppcheckVersion())
-	print "**********************************************"
+	print("********************************************** \n")
+	print("Static Checker for C++ based on " + str(cppcheckVersion()))
+	print("**********************************************")
 	
 """Main function 
 """
@@ -216,8 +216,8 @@ def runChecker(codePath, directory):
 	shellCommand += " 2>" + outputLog
 
 	# Execute the command 
-	print "Bash Command : "
-	print "\t " + shellCommand + "\n"
+	print("Bash Command : ")
+	print("\t " + shellCommand + "\n")
 	subprocess.call(shellCommand, shell=True)
 	
 	# Count the issues in the log files in their corresponding places 
@@ -234,17 +234,20 @@ def runChecker(codePath, directory):
 	printReportToFile(svCtr, codePath, directory)
 
 
+if __name__ == '__main__':
+	
+
 # If the argument is 0 or null : use camera path, otherwise get a camera path 
-if (len(sys.argv) < 3):
-    print "You have to provide a valid path to check the code ... " 
-    sys.exit(0) 
-elif(sys.argv[1] == "--path"): 
-    codePath = sys.argv[2]
+    if (len(sys.argv) < 3):
+        print("You have to provide a valid path to check the code ... ") 
+        sys.exit(0) 
+    elif(sys.argv[1] == "--path"): 
+        codePath = sys.argv[2]
     
-dirList = os.listdir(codePath)
+    dirList = os.listdir(codePath)
  
-for directory in dirList:
-	print directory 
+    for directory in dirList:
+	print(directory) 
 	
 	# Run the Cpp Checker for a directory all together ...  
 	runChecker(codePath, directory)
