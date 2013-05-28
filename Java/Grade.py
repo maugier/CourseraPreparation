@@ -42,8 +42,8 @@ JAVA_COMPILER = "javac"
 JAVA_RUNNER = "java"
 JUNIT_PATH = "/usr/share/java/junit4.jar"
 JUNIT_CORE = "org.junit.runner.JUnitCore"
-SUBMITED_SOURCE_DIR = "/home/abdellah/Desktop/src/submitted"
-UNIT_TESTS_DIR = "/home/abdellah/Desktop/src/tests"
+SUBMITED_SOURCE_DIR = "/home/abdellah/Desktop/Coursera/CourseraPreparation/Java/src/submitted"
+UNIT_TESTS_DIR = "/home/abdellah/Desktop/Coursera/CourseraPreparation/Java/src/tests"
 ########################################################################
 
 ########################################################################
@@ -73,7 +73,7 @@ __finalReportString = ""
 ########################################################################
 
 # __debug
-__debugGlob = False
+__debugGlob = True
 
 """
 ! This struct summarizes the number of passed and failed tests 
@@ -139,9 +139,15 @@ def _compileFile_(__fileName, __report):
 		print ("\t " + __shellCommand) 
 	
 	# Compile the file 
-	__compilationResultFile = open(__fileName + ".compile", 'rw')
+	__compilationResultFile = open(__fileName + ".compile", 'w')
 	process = subprocess.Popen(__shellCommand, shell=True, stderr=__compilationResultFile, stdout=__compilationResultFile)
 	process.wait()
+	
+	# Closing the resulting file from the compilation step 
+	__compilationResultFile.close()
+	
+	# Open the file once more but in read only mode 
+	__compilationResultFile = open(__fileName + ".compile", 'r')
 	
 	# Read the FILE.compile to get any existing errors 
 	__compileERROR = __compilationResultFile.read()
@@ -384,6 +390,7 @@ def _appendToFinalReport(__report):
 		__finalReportString += "\t Problems : "   + str(__report.__message) + "\n"
 		__finalReportString += "\t Total Number of Obtained Points : "   + str(__report.__grade) + "\n"
 	__finalReportString += "************************************************************\n"
+	
 
 """
 Grades an individual rport 
@@ -542,5 +549,5 @@ if __name__ == '__main__':
 ########################################################################
 # Print the final report to the console  
 ########################################################################
-    print ("The final grade is " + str(__finalGrade))
     print (__finalReportString)
+    print ("The final grade is " + str(__finalGrade))
