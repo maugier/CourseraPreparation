@@ -42,8 +42,10 @@ JAVA_COMPILER = "javac"
 JAVA_RUNNER = "java"
 JUNIT_PATH = "/usr/share/java/junit4.jar"
 JUNIT_CORE = "org.junit.runner.JUnitCore"
-SUBMITED_SOURCE_DIR = "/home/abdellah/Desktop/Coursera/CourseraPreparation/Java/src/submitted"
-UNIT_TESTS_DIR = "/home/abdellah/Desktop/Coursera/CourseraPreparation/Java/src/tests"
+#SUBMITED_SOURCE_DIR = "/home/abdellah/Desktop/src/submitted"
+#UNIT_TESTS_DIR = "/home/abdellah/Desktop/src/tests"
+SUBMITED_SOURCE_DIR = "/home/max/mooc-prog/CourseraPreparation/Java/src/submitted"
+UNIT_TESTS_DIR = "/home/max/mooc-prog/CourseraPreparation/Java/src/tests"
 ########################################################################
 
 ########################################################################
@@ -60,7 +62,7 @@ __classNames = ["Add",
 				"Divide"]
 ########################################################################
 
-########################################################################
+#######################################################################
 """ Grading policy  """        
 # For every test give it 2 points 
 __testPoint = 2
@@ -278,7 +280,7 @@ def _parseTestReport_(__reportTest, __report):
 			__testPassed = True
 			
 			# Get the total number of tests from __line 
-			__numTestPasses = filter(str.isdigit, __line)
+			__numTestPasses = ''.join(filter(str.isdigit, __line))
 			if (__debugGlob or __debugLocl):
 				print ("\t " + str(__numTestPasses) + " test cases have been successfully passed") 
 			
@@ -325,8 +327,8 @@ def _parseTestReport_(__reportTest, __report):
 				# Split to get the total number of tests and the failing ones 
 				__splitLine = __line.split(",")
 				
-				__totalTests = filter(str.isdigit, __splitLine[0])
-				__failingTests = filter(str.isdigit, __splitLine[1])
+				__totalTests = ''.join(filter(str.isdigit, __splitLine[0]))
+				__failingTests = ''.join(filter(str.isdigit, __splitLine[1]))
 				
 				if (__debugGlob or __debugLocl):
 					print ("\t " + "Total/Failing: " + str(int(__totalTests)) + "/" + str(int(__failingTests)))
