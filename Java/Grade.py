@@ -532,13 +532,15 @@ def _writeFinalReport():
 	# Close the file stream 
 	__fileHandle.close()
 		
+
+if __name__ == '__main__':
 ########################################################################
 # Run the Java Coursera Grader 		
 ########################################################################
-_runJavaGrader()
+    _runJavaGrader()
 
 ########################################################################
 # Print the final report to the console  
 ########################################################################
-print ("The final grade is " + str(__finalGrade))
-print (__finalReportString)
+    print ("The final grade is " + str(__finalGrade))
+    print (__finalReportString)
