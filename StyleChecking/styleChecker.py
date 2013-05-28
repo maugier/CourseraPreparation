@@ -11,6 +11,9 @@ from random import Random
 from decimal import Decimal
 import random
 
+# Delete INTERMEDIATE Log File
+DELETE_LOG = True 
+
 """ Version checking functions  
 """
 def cppcheckVersion():
@@ -229,6 +232,13 @@ def runChecker(codePath, directory):
 	for iLine in logFile:
 		record = iLine.split(";")
 		severtiyCheck(record, svCtr)
+		
+	# Delete the intermediate log file _.log
+	if (DELETE_LOG): 
+		try:
+			os.remove(outputLog)
+		except OSError:
+			pass
 	
 	# Print the final report that concludes the static check 
 	printReportToFile(svCtr, codePath, directory)
