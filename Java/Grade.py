@@ -541,19 +541,18 @@ def _writeFinalReport():
 	# Close the file stream 
 	__fileHandle.close()
 
-def java_unit_grader(sub):
+def do_grading(source, tests):
     global SUBMITED_SOURCE_DIR
     global UNIT_TESTS_DIR
    
-    SUBMITED_SOURCE_DIR = sub.workdir
-    UNIT_TESTS_DIR = "{0}/javatests".format(sub.datadir)
+    SUBMITED_SOURCE_DIR = source
+    UNIT_TESTS_DIR = tests
     
     os.chdir(SUBMITED_SOURCE_DIR)
     
     _runJavaGrader()
 
-    sub.feedback(_getFinalReport())
-    sub.points(_getFinalResult())
+    return (_getFinalReport(), _getFinalResult())
 		
 
 if __name__ == '__main__':
