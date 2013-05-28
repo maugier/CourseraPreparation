@@ -79,7 +79,7 @@ __debugGlob = False
 ! This struct summarizes the number of passed and failed tests 
 """
 class _reportTest_:
-    def __init__(self):
+	def __init__(self):
 		# Report name 
 		self.__name = "NO_NAME_SO_FAR"
 		# TB incremented once a test passes 
