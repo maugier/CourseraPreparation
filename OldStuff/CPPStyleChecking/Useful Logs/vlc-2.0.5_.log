@@ -1,0 +1,104 @@
+vlc-2.0.5/bin/winvlc.c;79;error;memleakOnRealloc;Common realloc mistake: 'argv' nulled but not freed upon failure
+vlc-2.0.5/doc/libvlc/libvlc_DVD_ripper.c;158;error;memleak;Memory leak: handle
+vlc-2.0.5/modules/access/cdda.c;160;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/cdda.c;163;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/ftp.c;335;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/ftp.c;336;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/ftp.c;337;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/ftp.c;342;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/gnomevfs.c;110;error;nullPointer;Possible null pointer dereference: p_sys
+vlc-2.0.5/modules/access/gnomevfs.c;111;error;nullPointer;Possible null pointer dereference: p_sys
+vlc-2.0.5/modules/access/gnomevfs.c;112;error;nullPointer;Possible null pointer dereference: p_sys
+vlc-2.0.5/modules/access/http.c;256;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;257;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;258;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;259;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;260;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;261;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;262;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;263;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;264;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;265;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;266;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;267;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;268;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;269;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;280;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;281;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;282;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;283;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;284;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;285;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;286;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;287;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;288;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;289;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;294;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;296;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/linsys/linsys_sdi.c;516;error;memleakOnRealloc;Common realloc mistake: 'p_dr' nulled but not freed upon failure
+vlc-2.0.5/modules/access/mtp.c;151;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/mtp.c;152;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/mtp.c;163;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/mms/mmsh.c;84;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/mms/mmsh.c;85;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/mms/mmsh.c;88;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/http.c;271;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/rtmp/access.c;95;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/sftp.c;148;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/sftp.c;151;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/vdr.c;204;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/vdr.c;205;error;uninitvar;Uninitialized variable: p_sys
+vlc-2.0.5/modules/access/vdr.c;255;error;uninitvar;Uninitialized variable: cppcheck:r1
+vlc-2.0.5/modules/access/zip/zipstream.c;575;error;memleak;Memory leak: playlist
+vlc-2.0.5/modules/audio_output/directx.c;452;error;syntaxError;syntax error
+vlc-2.0.5/modules/codec/loader/registry.c;299;error;memleakOnRealloc;Common realloc mistake: 'regs' nulled but not freed upon failure
+vlc-2.0.5/modules/codec/subsdec.c;589;error;memleakOnRealloc;Common realloc mistake: 'psz_html' nulled but not freed upon failure
+vlc-2.0.5/modules/control/rc.c;1205;error;memleak;Memory leak: val_name.psz_string
+vlc-2.0.5/modules/demux/mp4/drms.c;1570;error;uninitstring;Dangerous usage of 'p_tmp' (strncpy doesn't always null-terminate it).
+vlc-2.0.5/modules/demux/nuv.c;838;error;uninitvar;Uninitialized variable: p_kfa_table
+vlc-2.0.5/modules/demux/real.c;1570;error;memleak;Memory leak: fmt.p_extra
+vlc-2.0.5/modules/demux/real.c;1609;error;memleak;Memory leak: fmt.p_extra
+vlc-2.0.5/modules/gui/ncurses.c;544;error;bufferAccessOutOfBounds;Buffer is accessed out of bounds: color_pairs
+vlc-2.0.5/modules/gui/skins2/parser/builder.cpp;231;error;nullPointer;Possible null pointer dereference: pParentBmp
+vlc-2.0.5/modules/lua/vlc.c;288;error;memleak;Memory leak: ppsz_dir_list
+vlc-2.0.5/modules/media_library/sql_update.c;321;error;memleakOnRealloc;Common realloc mistake: 'pi_padd_ids' nulled but not freed upon failure
+vlc-2.0.5/modules/media_library/sql_update.c;360;error;memleakOnRealloc;Common realloc mistake: 'pi_padd_ids' nulled but not freed upon failure
+vlc-2.0.5/modules/misc/playlist/xspf.c;189;error;nullPointer;Possible null pointer dereference: psz_temp
+vlc-2.0.5/modules/mux/mp4.c;1043;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1055;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1058;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1147;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1151;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1155;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1159;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1163;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1167;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1171;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/mux/mp4.c;1175;warning;bufferNotZeroTerminated;The buffer 'fcc' is not null-terminated after the call to memcpy().
+vlc-2.0.5/modules/services_discovery/sap.c;727;error;memleakOnRealloc;Common realloc mistake: 'decomp' nulled but not freed upon failure
+vlc-2.0.5/modules/stream_out/bridge.c;318;error;assignBoolToPointer;Boolean value assigned to pointer.
+vlc-2.0.5/modules/stream_filter/httplive.c;625;error;memleak;Memory leak: segment
+vlc-2.0.5/modules/stream_filter/httplive.c;1067;error;memleak;Memory leak: hls
+vlc-2.0.5/modules/services_discovery/sap.c;1479;error;memleakOnRealloc;Common realloc mistake: 'psz_dst' nulled but not freed upon failure
+vlc-2.0.5/modules/services_discovery/sap.c;724;error;memleak;Memory leak: decomp
+vlc-2.0.5/modules/text_renderer/freetype.c;2082;error;nullPointer;Possible null pointer dereference: p_new_positions
+vlc-2.0.5/modules/video_filter/atmo/AtmoOutputFilter.cpp;86;error;mismatchAllocDealloc;Mismatching allocation and deallocation: CAtmoOutputFilter::m_percent_filter_output_old
+vlc-2.0.5/modules/video_filter/atmo/AtmoOutputFilter.cpp;142;error;mismatchAllocDealloc;Mismatching allocation and deallocation: CAtmoOutputFilter::m_mean_filter_output_old
+vlc-2.0.5/modules/video_filter/atmo/AtmoOutputFilter.cpp;148;error;mismatchAllocDealloc;Mismatching allocation and deallocation: CAtmoOutputFilter::m_mean_values
+vlc-2.0.5/modules/video_filter/atmo/AtmoOutputFilter.cpp;154;error;mismatchAllocDealloc;Mismatching allocation and deallocation: CAtmoOutputFilter::m_mean_sums
+vlc-2.0.5/modules/video_filter/atmo/AtmoZoneDefinition.cpp;137;error;memleak;Memory leak: pBuf
+vlc-2.0.5/modules/video_filter/atmo/AtmoZoneDefinition.cpp;182;error;memleak;Memory leak: pBuf
+vlc-2.0.5/modules/video_filter/atmo/AtmoZoneDefinition.cpp;256;error;memleak;Memory leak: pixelBuffer
+vlc-2.0.5/modules/video_filter/deinterlace/mmx.h;40;error;syntaxError;syntax error
+vlc-2.0.5/modules/video_filter/osdmenu.c;189;error;nullPointer;Possible null pointer dereference: p_sys
+vlc-2.0.5/modules/video_filter/sepia.c;341;error;uninitvar;Uninitialized variable: i_picture_size_limit
+vlc-2.0.5/modules/video_output/xcb/window.c;509;error;memleakOnRealloc;Common realloc mistake: 'used' nulled but not freed upon failure
+vlc-2.0.5/src/input/item.c;557;error;memleak;Memory leak: p_info
+vlc-2.0.5/src/input/es_out.c;1278;error;memleak;Memory leak: p_pgrm
+vlc-2.0.5/src/input/es_out.c;2319;error;memleak;Memory leak: p_pgrm
+vlc-2.0.5/src/modules/cache.c;655;error;memleakOnRealloc;Common realloc mistake: 'cache' nulled but not freed upon failure
+vlc-2.0.5/src/playlist/services_discovery.c;117;error;doubleFree;Memory pointed to by 'p_sd' is freed twice.
+vlc-2.0.5/src/playlist/services_discovery.c;119;error;deallocuse;Dereferencing 'p_sd' after it is deallocated / released
+vlc-2.0.5/src/playlist/services_discovery.c;127;error;deallocret;Returning/dereferencing 'p_sd' after it is deallocated / released
+vlc-2.0.5/src/video_output/display.c;1658;error;autoVariables;Address of local auto-variable assigned to a function parameter.
+vlc-2.0.5/src/video_output/video_text.c;139;error;memleak;Memory leak: sys.text

@@ -1,0 +1,84 @@
+mplayer/TOOLS/movinfo.c;357;error;resourceLeak;Resource leak: f
+mplayer/TOOLS/vivodump.c;203;error;resourceLeak;Resource leak: f
+mplayer/asxparser.c;142;error;memleakOnRealloc;Common realloc mistake: 'attribs' nulled but not freed upon failure
+mplayer/codec-cfg.c;652;error;memleakOnRealloc;Common realloc mistake: 'codecsp' nulled but not freed upon failure
+mplayer/gui/util/list.c;368;error;memleak;Memory leak: path
+mplayer/gui/win32/gui.c;109;error;deallocret;Returning/dereferencing 'acp_str' after it is deallocated / released
+mplayer/gui/win32/gui.c;1447;error;uninitvar;Uninitialized variable: binfo
+mplayer/input/lirc.c;99;error;memleakOnRealloc;Common realloc mistake: 'cmd_buf' nulled but not freed upon failure
+mplayer/input/joystick.c;98;error;uninitvar;Uninitialized variable: ev
+mplayer/libaf/af_ladspa.c;542;error;memleak;Memory leak: buf
+mplayer/libao2/ao_dsound.c;244;error;syntaxError;syntax error
+mplayer/libao2/ao_coreaudio.c;910;error;memleak;Memory leak: p_streams
+mplayer/libdvdread4/dvd_reader.c;573;error;nullPointer;Possible null pointer dereference: path
+mplayer/libmenu/menu.c;202;error;memleakOnRealloc;Common realloc mistake: 'menu_list' nulled but not freed upon failure
+mplayer/libmenu/menu.c;255;error;memleakOnRealloc;Common realloc mistake: 'buffer' nulled but not freed upon failure
+mplayer/libmenu/menu.c;455;error;memleakOnRealloc;Common realloc mistake: 'logical' nulled but not freed upon failure
+mplayer/libmenu/menu.c;456;error;memleakOnRealloc;Common realloc mistake: 'visual' nulled but not freed upon failure
+mplayer/libmenu/menu.c;457;error;memleakOnRealloc;Common realloc mistake: 'outputstr' nulled but not freed upon failure
+mplayer/libmenu/menu_filesel.c;210;error;memleakOnRealloc;Common realloc mistake: 'extensions' nulled but not freed upon failure
+mplayer/libmenu/menu_filesel.c;211;error;memleakOnRealloc;Common realloc mistake: 'extensions' nulled but not freed upon failure
+mplayer/libmpcodecs/ad_libdca.c;253;error;uninitvar;Uninitialized variable: flags
+mplayer/libmpcodecs/ad_realaud.c;282;error;memleakOnRealloc;Common realloc mistake: 'path' nulled but not freed upon failure
+mplayer/libmpcodecs/vd_libmpeg2.c;267;error;memleakOnRealloc;Common realloc mistake: 'p' nulled but not freed upon failure
+mplayer/libmpcodecs/vd_xanim.c;736;error;memleak;Memory leak: codec_hdr.anim_hdr
+mplayer/libmpcodecs/vf_bmovl.c;347;error;memleak;Memory leak: buffer
+mplayer/libmpcodecs/vf_divtc.c;428;error;nullPointer;Possible null pointer dereference: cbuf
+mplayer/libmpcodecs/vf_filmdint.c;461;error;uninitvar;Uninitialized variable: tm
+mplayer/libmpcodecs/vf_filmdint.c;603;error;uninitvar;Uninitialized variable: tm
+mplayer/libmpdemux/demux_mkv.c;212;error;memleakOnRealloc;Common realloc mistake: 'array' nulled but not freed upon failure
+mplayer/libmpdemux/demux_mkv.c;579;error;memleakOnRealloc;Common realloc mistake: 'ce' nulled but not freed upon failure
+mplayer/libmpdemux/demux_mkv.c;1552;error;memleakOnRealloc;Common realloc mistake: 'bih' nulled but not freed upon failure
+mplayer/libmpdemux/demux_mkv.c;1601;error;memleakOnRealloc;Common realloc mistake: 'bih' nulled but not freed upon failure
+mplayer/libmpdemux/demux_rawdv.c;164;error;memleak;Memory leak: frames
+mplayer/libmpdemux/demux_rawdv.c;169;error;memleak;Memory leak: frames
+mplayer/libmpdemux/demux_rtp.cpp;406;error;nullPointer;Possible null pointer dereference: env
+mplayer/libmpdemux/demux_ty_osd.c;709;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;713;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;722;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;726;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;728;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;730;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;732;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;809;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;812;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;813;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;816;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;826;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/demux_ty_osd.c;827;error;sprintfOverlappingData;Undefined behavior: Variable 'line' is used as parameter and destination in s[n]printf().
+mplayer/libmpdemux/muxer_mpeg.c;354;error;memleak;Memory leak: tmp
+mplayer/libvo/gtf.c;163;error;uninitvar;Uninitialized variable: sync_plus_BP
+mplayer/libvo/gtf.c;257;error;uninitvar;Uninitialized variable: sync_plus_BP
+mplayer/libvo/vo_fbdev.c;219;error;memleakOnRealloc;Common realloc mistake: 'fb_modes' nulled but not freed upon failure
+mplayer/libvo/vo_fbdev2.c;281;error;memleakOnRealloc;Common realloc mistake: 'next_frame' nulled but not freed upon failure
+mplayer/libvo/vo_vdpau.c;788;error;memleakOnRealloc;Common realloc mistake: 'index_data' nulled but not freed upon failure
+mplayer/libvo/vo_vdpau.c;905;error;memleakOnRealloc;Common realloc mistake: 'eosd_surfaces' nulled but not freed upon failure
+mplayer/libvo/vo_vdpau.c;906;error;memleakOnRealloc;Common realloc mistake: 'eosd_targets' nulled but not freed upon failure
+mplayer/loader/registry.c;279;error;memleakOnRealloc;Common realloc mistake: 'regs' nulled but not freed upon failure
+mplayer/m_property.c;185;error;memleakOnRealloc;Common realloc mistake: 'ret' nulled but not freed upon failure
+mplayer/m_option.c;88;error;memleakOnRealloc;Common realloc mistake: 'p' nulled but not freed upon failure
+mplayer/m_option.c;486;error;memleakOnRealloc;Common realloc mistake: 'lst' nulled but not freed upon failure
+mplayer/m_option.c;1045;error;memleakOnRealloc;Common realloc mistake: 'lst' nulled but not freed upon failure
+mplayer/m_option.c;1708;error;memleakOnRealloc;Common realloc mistake: 'ret' nulled but not freed upon failure
+mplayer/m_option.c;1769;error;memleakOnRealloc;Common realloc mistake: 'obj_list' nulled but not freed upon failure
+mplayer/m_option.c;1910;error;memleakOnRealloc;Common realloc mistake: 'res' nulled but not freed upon failure
+mplayer/m_option.c;1919;error;memleakOnRealloc;Common realloc mistake: 'head' nulled but not freed upon failure
+mplayer/mp_strings.c;50;error;deallocret;Returning/dereferencing 'p' after it is deallocated / released
+mplayer/osdep/macosx_finder_args.c;67;error;memleakOnRealloc;Common realloc mistake: 'parm' nulled but not freed upon failure
+mplayer/parser-mecmd.c;148;error;memleakOnRealloc;Common realloc mistake: 'lst' nulled but not freed upon failure
+mplayer/path.c;122;error;memleakOnRealloc;Common realloc mistake: 'res_url_path' nulled but not freed upon failure
+mplayer/path.c;128;error;memleakOnRealloc;Common realloc mistake: 'bdl_url_path' nulled but not freed upon failure
+mplayer/playtreeparser.c;269;error;memleakOnRealloc;Common realloc mistake: 'e' nulled but not freed upon failure
+mplayer/playtreeparser.c;944;error;uninitvar;Uninitialized variable: cppcheck:r1
+mplayer/stream/http.c;444;error;memleakOnRealloc;Common realloc mistake: 'field' nulled but not freed upon failure
+mplayer/stream/stream_cddb.c;974;error;uninitvar;Uninitialized variable: audiolen
+mplayer/stream/stream_netstream.h;114;error;memleakOnRealloc;Common realloc mistake: 'pack' nulled but not freed upon failure
+mplayer/stream/stream_netstream.h;120;error;memleak;Memory leak: pack
+mplayer/stream/stream_radio.c;1145;error;memleak;Memory leak: priv
+mplayer/stream/url.c;81;error;nullPointer;Possible null pointer dereference: buffer
+mplayer/sub/ass_mp.c;239;error;memleakOnRealloc;Common realloc mistake: 'buf' nulled but not freed upon failure
+mplayer/sub/ass_mp.c;250;error;memleakOnRealloc;Common realloc mistake: 'buf' nulled but not freed upon failure
+mplayer/sub/vobsub.c;308;error;deallocret;Returning/dereferencing 'res' after it is deallocated / released
+mplayer/sub/subreader.c;1514;error;memleakOnRealloc;Common realloc mistake: 'first' nulled but not freed upon failure
+mplayer/sub/subreader.c;1745;error;memleakOnRealloc;Common realloc mistake: 'second' nulled but not freed upon failure
+mplayer/sub/subreader.c;1765;error;memleakOnRealloc;Common realloc mistake: 'second' nulled but not freed upon failure

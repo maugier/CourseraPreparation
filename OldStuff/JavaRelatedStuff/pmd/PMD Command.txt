@@ -1,0 +1,2 @@
+./bin/run.sh pmd -d ../Java/src/submitted/Subtract.java -f text -R rulesets/java/basic.xml -version 1.7 -language java
+

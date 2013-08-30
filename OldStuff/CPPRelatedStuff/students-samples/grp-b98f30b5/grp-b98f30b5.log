@@ -1,0 +1,19 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 0, Grading (0) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 2, Grading (-1.0) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -1.0
+
+*********************
+Static Check Details
+*********************
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-b98f30b5/saut.cc at line: 21, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 't' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-b98f30b5/saut.cc at line: 46, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 'terme' is assigned a value that is never used.
