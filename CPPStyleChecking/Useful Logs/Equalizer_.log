@@ -1,0 +1,3 @@
+Equalizer/eq/client/glException.h;41;error;stlcstr;Dangerous usage of c_str(). The value returned by c_str() is invalid after this call.
+Equalizer/examples/eqPly/plyfile.cpp;2037;error;memleakOnRealloc;Common realloc mistake: 'words' nulled but not freed upon failure
+Equalizer/tools/eVolveConverter/ddsbase.cpp;971;error;mismatchAllocDealloc;Mismatching allocation and deallocation: err
