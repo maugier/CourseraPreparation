@@ -1,0 +1,37 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 0, Grading (0) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 11, Grading (-5.5) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -5.5
+
+*********************
+Static Check Details
+*********************
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 7, penalty -0.5 Marks
+	 Type: unusedStructMember, Message: struct or union member 'Sportif::masse' is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 11, penalty -0.5 Marks
+	 Type: unusedStructMember, Message: struct or union member 'Sportif::surface' is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 23, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 'g' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 24, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 'v0' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 25, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 't0' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 26, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 'h0' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 42, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 't0' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 43, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: t
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 44, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: alpha
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 41, penalty -0.5 Marks
+	 Type: unusedFunction, Message: The function 'chute_libre' is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-55f4a1c1/saut.cc at line: 49, penalty -0.5 Marks
+	 Type: unusedFunction, Message: The function 'ouverture_parachute' is never used.

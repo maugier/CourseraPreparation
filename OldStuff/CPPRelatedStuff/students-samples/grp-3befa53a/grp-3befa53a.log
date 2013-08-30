@@ -1,0 +1,21 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 3, Grading (-3) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 0, Grading (-0.0) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -3.0
+
+*********************
+Static Check Details
+*********************
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-3befa53a/saut.cc at line: 72, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=72, character code=c2)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-3befa53a/saut.cc at line: 72, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=72, character code=a2)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-3befa53a/saut.cc at line: 35, penalty -1 Marks
+	 Type: syntaxError, Message: Invalid number of character ({) when these macros are defined: ''.

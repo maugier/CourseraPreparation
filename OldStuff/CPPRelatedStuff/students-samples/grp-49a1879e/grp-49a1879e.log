@@ -1,0 +1,25 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 0, Grading (0) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 5, Grading (-2.5) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -2.5
+
+*********************
+Static Check Details
+*********************
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-49a1879e/saut.cc at line: 17, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: M
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-49a1879e/saut.cc at line: 18, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: S
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-49a1879e/saut.cc at line: 19, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: V
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-49a1879e/saut.cc at line: 20, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: H
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-49a1879e/saut.cc at line: 21, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: A

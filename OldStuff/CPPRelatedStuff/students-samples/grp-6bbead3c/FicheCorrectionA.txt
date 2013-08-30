@@ -1,0 +1,81 @@
+======================================================================
+                   CORRECTION SÉRIE NOTÉE 15.11.2012
+======================================================================
+
+groupe : 6bbead3c
+Corrigé par : 12345678
+
+----------------------------------------------------------------------
+
+Exercice A (sur 47 points) : 25.5
+
+   RAPPEL : évaluez à chaque fois suivant les 5 aspects
+            suivants (2 pour le premier aspect) et donnez
+            les points en proportion du total
+        fait / partiel / pas fait          2 / 1 /0
+        compile / ne compile pas           1 / 0
+        execution OK / pb execution        1 / 0
+        résultats corrects / incorrects    1 / 0
+
+Question 1 (13 pts)
+
+    g, v0, t0, h0                                      sur 2 : 2
+
+    type Sportif                                       sur 3 : 3
+
+    initialisation felix                               sur 2 : 2
+
+    fonction afficher()                                sur 5 : 5
+
+    appel afficher()                                   sur 1 : 1
+
+    BONUS   utilisation de const(expr)               sur 0.5 : 0.5
+
+Question 2 (16 pts)
+
+    #include <cmath>                                   sur 1 : 1
+
+    variable t (déclaration + incrément)               sur 1 : 1
+
+    variable alpha (déclaration + calcul)              sur 2 : 2
+
+    variable terme (déclaration + calcul)              sur 2 : 2
+
+    calcul felix.vitesse                             sur 2.5 : 1.5
+
+    calcul felix.hauteur                             sur 2.5 : 1.5
+
+    calcul felix.accel                                 sur 2 : 1
+
+    boucle while                                       sur 3 : 1
+
+Question 3 (9 pts)
+
+    bool vitesseSonAtteinte (decl + utilisation)     sur 1 : 0
+
+    bool vitesseMaxAtteinte (decl + utilisation)   sur 0.5 : 0
+
+    test + message correct sur "vitesse son"         sur 5 : 1
+
+    test + message correct sur "vitesse max"       sur 2.5 : 0
+
+    BONUS   vitesseSon                               sur 0.5 : 0
+    BONUS   seuilAccel                               sur 0.5 : 0
+
+Question 4 (9 pts)
+
+    bool parachuteOuvert (decl + utilisation)          sur 1 : 0
+
+    test + message correct sur "parachute ouvert"      sur 3 : 0
+
+    modification de la surface                         sur 2 : 0
+
+    modification des conditions initiales              sur 3 : 0
+
+    BONUS   hauteurParachute                         sur 0.5 : 0
+    BONUS   surfaceParachute                         sur 0.5 : 0
+
+----------------------------------------------------------------------
+    remarques : 
+    Pas grand chose à dire, voir les commentaires dans le code.
+======================================================================

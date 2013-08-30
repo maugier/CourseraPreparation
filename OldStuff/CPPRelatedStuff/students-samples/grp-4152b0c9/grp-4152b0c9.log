@@ -1,0 +1,23 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 0, Grading (0) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 4, Grading (-2.0) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -2.0
+
+*********************
+Static Check Details
+*********************
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-4152b0c9/saut.cc at line: 20, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 'v' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-4152b0c9/saut.cc at line: 21, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 'h' is assigned a value that is never used.
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-4152b0c9/saut.cc at line: 13, penalty -0.5 Marks
+	 Type: unusedVariable, Message: Unused variable: a
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-4152b0c9/saut.cc at line: 31, penalty -0.5 Marks
+	 Type: unreadVariable, Message: Variable 'terme' is assigned a value that is never used.

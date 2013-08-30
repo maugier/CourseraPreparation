@@ -1,0 +1,57 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 21, Grading (-21) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 0, Grading (-0.0) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -21.0
+
+*********************
+Static Check Details
+*********************
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 8, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=8, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 8, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=8, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 9, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=9, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 9, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=9, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 12, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=12, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 12, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=12, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 13, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=13, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 13, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=13, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 45, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=45, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 45, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=45, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 47, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=47, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 47, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=47, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 50, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=50, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 50, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=50, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 52, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=52, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 52, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=52, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 55, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=55, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 55, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=55, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 57, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=57, character code=c3)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 57, penalty -1 Marks
+	 Type: syntaxError, Message: The code contains characters that are unhandled. Neither unicode nor extended ASCII are supported. (line=57, character code=9f)
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-5ec2b99f/saut.cc at line: 9, penalty -1 Marks
+	 Type: syntaxError, Message: Invalid number of character (() when these macros are defined: ''.

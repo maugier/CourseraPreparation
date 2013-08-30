@@ -181,6 +181,7 @@ def main():
 	"""
 	# PMD script  
 	pmdScript = "/home/abdellah/Desktop/Coursera/CourseraPreparation/JavaStyleChecking/pmd/pmd-src-5.0.4/bin/run.sh"
+	# pmdScript = pmdDir + "/pmd-src-5.0.4/bin/run.sh"
 	
 	# PMD rule 
 	pmdRuleList =  ["android.xml", 
@@ -216,6 +217,7 @@ def main():
 	
 	
 	pmdRulePath = "/home/abdellah/Desktop/Coursera/CourseraPreparation/JavaStyleChecking/pmd/pmd-bin-5.0.4/rulesets/java/"
+	#pmdRulePath = pmdDir + "//pmd-bin-5.0.4/rulesets/java/"
 	
 	# Check the selected rules in the list "CUSTOMIZABLE"  
 	for rule in pmdRuleList:
@@ -233,6 +235,8 @@ def main():
 	print("Total number of lost points is " + str(getLostPoints(numWarnings)))
 	print("The final messges will be : " )
 	print (warningData)
+
+
 
 # Run the main function. 
 # You have to pass to the main function where we keep the bin and the src

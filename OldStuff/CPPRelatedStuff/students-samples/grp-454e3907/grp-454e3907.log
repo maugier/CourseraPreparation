@@ -1,0 +1,17 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 1, Grading (-1) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 0, Grading (-0.0) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -1.0
+
+*********************
+Static Check Details
+*********************
+Error in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-454e3907/saut.cc at line: 16, penalty -1 Marks
+	 Type: syntaxError, Message: Invalid number of character (() when these macros are defined: ''.

@@ -1,0 +1,17 @@
+
+********************
+Static Check Summary
+********************
+Total number of errors is 0, Grading (0) Marks
+Total number of warnings is 0, Grading (-0.0) Marks
+Total number of style issues is 1, Grading (-0.5) Marks
+Total number of performance issues is 0, Grading (-0.0) Marks
+Total number of portability issues is 0, Grading (-0.0) Marks
+-------------------------------------------------------------
+Total number of lost marks is -0.5
+
+*********************
+Static Check Details
+*********************
+Style issue in /home/abdellah/Desktop/Coursera/CourseraPreparation/students-samples/grp-41b5f24c/saut.cc at line: 32, penalty -0.5 Marks
+	 Type: unusedFunction, Message: The function 'chute' is never used.
